@@ -1,0 +1,1 @@
+select * from usp_customervision_oneplace('TPH');
