@@ -1,1 +1,1 @@
-select * from usp_customervision_oneplace('TPH');
+select * from postgres.usp_customervision_oneplace('XLP');
