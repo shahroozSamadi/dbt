@@ -1,0 +1,6 @@
+
+version: 2
+
+macros :
+    - name: sample
+      description: "run procedure"
