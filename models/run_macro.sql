@@ -1,1 +1,1 @@
-        dbt run-operation call_stored_procedure
+{{ run_proc() }}

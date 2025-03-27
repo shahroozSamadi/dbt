@@ -1,4 +1,6 @@
-        -- macros/sample.sql
-        {% macro call_stored_procedure() %}
-            {{ run_query("call com.usp_customervision_oneplace_1('XLP');") }}
-        {% endmacro %}
+{% macro run_proc() %}
+    {% set sql %}
+        CALL com.usp_customervision_oneplace_1('XLP');
+    {% endset %}
+    {% do run_query(sql) %}
+{% endmacro %}
