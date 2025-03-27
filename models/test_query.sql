@@ -1,0 +1,1 @@
+SELECT inet_server_addr() as "name", current_database() as "dbname"
