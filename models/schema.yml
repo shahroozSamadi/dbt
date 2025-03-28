@@ -1,6 +1,5 @@
-
 version: 2
 
-macros :
-    - name: sample
-      description: "run procedure"
+macros:
+  - name: run_stored_procedure
+    description: "run procedure"
