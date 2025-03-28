@@ -1,5 +1,6 @@
 version: 2
 
-models:
+macros:
   - name: run_stored_procedure
-    description: "run procedure"
+    description: "run macro"
+
